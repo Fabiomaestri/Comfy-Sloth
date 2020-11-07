@@ -169,7 +169,7 @@ body {
   min-height: 60vh;
   background:linear-gradient(
     rgba(0, 0, 0, 0.5), 
-    rgba(253, 190, 2, 0.5)) ,url(../img/home-filler.jpeg)center/cover fixed no-repeat;
+    rgba(0, 0, 0, 0.5)) ,url(../img/home-filler.jpeg)center/cover fixed no-repeat;
 }
 /* end of home filler */
 /* featured section */
@@ -231,7 +231,7 @@ body {
 /* end of partner section */
 /* newsletter */
 .newsletter{
-  min-height: calc(100vh - 343.5px);
+  /* min-height: calc(100vh - 343.5px); */
 }
 .form-icon{
   background: var(--mainGrey);
